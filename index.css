@@ -1,0 +1,238 @@
+body {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Poppins";
+    background-color: hsl(0, 0%, 86%);
+}
+
+
+.container {
+    width: 630px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 130px 15px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width:  33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+div.row input {
+    width: 125px;
+    height: 55px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-color: hsl(0, 0%, 94%);
+    border-top-width: 1px;
+    border-left-width: 1px;
+    font-family: "Poppins";
+    font-weight: 700;
+    caret-color: hsl(259, 100%, 65%);
+}
+
+input:focus{
+    outline: none;
+}
+
+
+label {
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 7px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: hsl(0, 1%, 44%);
+}
+
+.label1 {
+    margin-left: 40px;
+}
+
+.label3 {
+    margin-left: 15px;
+}
+
+hr {
+    width: 520px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:hsl(0, 1%, 44%);
+}
+
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    margin-left: 520px;
+}
+
+
+h1 {
+    margin: 0;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 68px;
+    font-weight: 800;
+
+}
+
+
+p{
+    margin: 0;
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    font-style: italic;
+}
+
+#month {
+    margin-left: 0;
+}
+
+
+#year {
+    margin-left: 15px;
+
+}
+
+#fieldday {
+    margin-left: 40px;
+}
+
+#fieldyear {
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        height: 60vh;
+    }
+    .container {
+        width: 350px;
+        height: 420px;
+    }
+
+    div.row input {
+        width: 70px;
+        height: 55px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    hr {
+        width: 290px;
+
+    }
+    
+    
+    .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-top: -70px;
+        margin-left: 150px;
+    }
+    
+    
+    h1 {
+        margin-top: 8px;
+        font-size: 40px;
+    
+    }
+    
+    
+    p{
+        font-size: 9px;
+    }
+
+
+    #year {
+        margin-left: 25px;  
+
+    }
+
+    #month {
+        margin-left: 7px;
+    }
+
+    #fieldday {
+        margin-left: 20px;
+    }
+
+    #fieldmonth {
+        margin-left: 8px;
+    }
+
+    #fieldyear {
+        margin-left: 27px;
+    }
+
+    .label1 {
+        margin-left: 20px;
+    }
+
+    .label2 {
+        margin-left: 10px;
+    }
+
+    .label3 {
+        margin-left: 25px;
+    }
+
+    svg {
+
+        width: 30px;
+        height: 26px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    body {
+        height: 70vh;
+    }
+
+    .container {
+        height: 550px;
+    }
+}
+
