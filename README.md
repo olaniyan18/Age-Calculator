@@ -1,6 +1,7 @@
 # Frontend Mentor - Age calculator app
 
 ![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
+Preview Live: https://olaniyan18.github.io/Age-Calculator/
 
 ## Welcome! 👋
 
